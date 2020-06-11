@@ -1,0 +1,15 @@
+{
+  "SchemaVersion": 1,
+  "Name": "AzureIoT",
+  "ComponentId": "819255ff-8640-41fd-aea7-f85d34c491d5",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [ "--your data--" ],
+  "Capabilities": {
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "--your data--" ],
+    "Gpio": [ "$MT3620_GPIO16", "$MT3620_GPIO42", "$MT3620_GPIO1", "$MT3620_GPIO2", "$MT3620_GPIO28", "$MT3620_GPIO26", "$MT3620_GPIO37", "$MT3620_GPIO38", "$MT3620_GPIO17", "$MT3620_GPIO43", "$MT3620_GPIO0", "$MT3620_GPIO29", "$MT3620_GPIO27" ],
+    "SpiMaster": [ "$MT3620_ISU1_SPI" ],
+    "DeviceAuthentication": "--your data--"
+  },
+  "ApplicationType": "Default",
+  "WifiConfig": false
+}
